@@ -74,3 +74,6 @@ sudo apt-get install default-jre graphviz
 - **图像优化**: 使用Sharp进行后处理
 
 这个实现提供了一个完整的PlantUML渲染MCP服务器，可以轻松集成到Claude Desktop或其他支持MCP协议的应用中。需要其他功能或有问题吗？
+
+### usage
+mcp-plantuml-server - render_plantuml_from_file(input_path: "/Users/linwang/src/github/xiluo/mcp-plantuml-server/系统架构图.puml", output_path: "/Users/linwang/src/github/xiluo/mcp-plantuml-server/系统架构图.png", format: "png")
