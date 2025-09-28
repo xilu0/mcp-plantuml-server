@@ -76,4 +76,19 @@ sudo apt-get install default-jre graphviz
 这个实现提供了一个完整的PlantUML渲染MCP服务器，可以轻松集成到Claude Desktop或其他支持MCP协议的应用中。需要其他功能或有问题吗？
 
 ### usage
-mcp-plantuml-server - render_plantuml_from_file(input_path: "/Users/linwang/src/github/xiluo/mcp-plantuml-server/系统架构图.puml", output_path: "/Users/linwang/src/github/xiluo/mcp-plantuml-server/系统架构图.png", format: "png")
+> 把@系统架构图.puml渲染成图片，同名保存，使用图片格式后缀
+
+⏺ I'll help you render the PlantUML file 系统架构图.puml to an image with the same name. Let me first check if the file exists and then render it.
+
+⏺ Read(系统架构图.puml)
+  ⎿  Read 18 lines (ctrl+o to expand)
+
+⏺ Now I'll render this PlantUML file to a PNG image with the same name:
+
+⏺ mcp-plantuml-server - render_plantuml_from_file (MCP)(input_path: "/Users/linwang/src/github/xiluo/mcp-plantuml-server/系统架构图.puml", output_path: "/Users/linwang/src/github/xiluo/mcp-plantuml-server/系统架构图.png", format: "png")
+  ⎿                                                                                                                                       
+       "success": true,
+       "path": "/Users/linwang/src/github/xiluo/mcp-plantuml-server/系统架构图.png",
+     … +236 lines (ctrl+o to expand)
+
+⏺ 已成功将 系统架构图.puml 文件渲染为 PNG 图片，保存为 系统架构图.png。图片已生成在同一目录下，文件大小为 24.77KB。
