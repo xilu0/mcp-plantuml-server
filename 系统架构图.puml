@@ -1,0 +1,17 @@
+@startuml
+title 系统架构图
+hide footbox
+actor 用户
+participant "MCP Client" as Client
+participant "PlantUML Server" as Server
+database "文件系统" as FS
+
+用户 -> Client: 发送PlantUML文本
+Client -> Server: 调用render_plantuml
+Server -> Server: 解析PlantUML
+Server -> Server: 生成图像
+Server -> FS: 保存图像文件
+Server -> Client: 返回结果(路径+base64)
+Client -> 用户: 显示图像
+
+@enduml
